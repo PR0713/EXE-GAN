@@ -1,0 +1,67 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environment
+.env
+.venv/
+venv/
+env/
+venv*/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+logs/
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Compiled extensions and binaries
+*.so
+*.dll
+*.dylib
+*.pyd
+*.lib
+*.obj
+
+# C/C++ build files from op/
+*.o
+fused_bias_act.cpp
+upfirdn2d.cpp
+
+# Data and images (large datasets) — ignore common image formats
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+images/
+dataset/
+data/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+*.pt
+
